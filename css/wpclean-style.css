@@ -1,0 +1,67 @@
+.wrap-plugin {
+	display: block;
+	width: calc(100% - 20px);
+	height: auto;
+	margin: 20px 20px 0 2px;
+	box-sizing: border-box;
+	padding: 30px 30px;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 0 0 15px 0px rgb(0 0 0 / 10%);
+	outline: 0px solid red;
+}
+
+	.wpclean-text {
+		display: block;
+		width: 100%;
+		height:auto;
+	}
+		.wpclean-text h2 {
+			font-size: 20px;
+			margin: 0 0 15px 0;
+		}
+		.wpclean-text p {
+			margin: 0 0 10px 0;
+			font-size: 14px;
+		}
+			.wpclean-text p:last-child {
+				margin: 0 0 0 0;
+			}
+			.wpclean-text p a {
+				color: #2271b1;
+				text-decoration: none;
+				padding-bottom: 0px;
+				border-bottom: 1px solid #2271b1;
+			}
+				.wpclean-text p a:hover {
+					border-bottom: 1px solid transparent;
+				}
+
+	.wrap-plugin > form.wpclean-form {
+		width: 100%;
+		display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+	}
+		.wrap-plugin > form.wpclean-form > h2 {
+			font-size: 20px;
+			margin: 0 0 20px 0;
+		}
+
+	.wrap-plugin > form.wpclean-form > table.form-table > tbody > tr {
+		border-bottom: 1px solid #eee;
+	}
+	
+	.wrap-plugin > form.wpclean-form > .wpclean-sumbit-update {
+		display: block;
+		width: 100%;
+		height: auto;
+		margin: 30px 0 0 0;
+	}
+		.wrap-plugin > form.wpclean-form > .wpclean-sumbit-update > p.submit {
+			margin: 0 0 0 0;
+			padding: 0 0;
+		}
+			.wrap-plugin > form.wpclean-form > .wpclean-sumbit-update > p.submit > input[type="submit"] {
+				font-size: 14px;
+			}
